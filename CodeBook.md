@@ -13,9 +13,9 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 
 |--**Transformation**----------------------------------------------------------------------------------------------
 
-Description of the transformation performed with the data to clean up the data set and create the final tidy_data_set.txt
-
-1. Merges the training and test sets to create one data set:   
+Description of the transformation performed with the data to clean up the data set and create the final tidy_data_set.txt      
+    
+1 Merges the training and test sets to create one data set:      
    
 1.1. For the set up of the Master data set the following data was extracted out of the UCI HAR Dataset:   
 
@@ -32,7 +32,7 @@ Description of the transformation performed with the data to clean up the data s
 1.3: the identifier of the participants and activities was added to the XTrain and XTest sets.   
 1.4: the XTrain and XTest set were combined into a Master set to create one data set.   
 
-2. Extracts only the measurements on the mean and standard deviation for each measurement:
+2 Extracts only the measurements on the mean and standard deviation for each measurement:
 
 2.1. Two feature data.frames were created from the Master set one with all STD featuers and one with all Mean features
 
