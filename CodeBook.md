@@ -139,6 +139,14 @@ Column|Variable names|Definition
 6|	timeBodyAccelerator-std()-X|...
 7|	timeBodyAccelerator-std()-Y|..
 8|	timeBodyAccelerator-std()-Z|.
+.|      .|...
+479|angle(Z,gravityMean)|Angle between to vectors  
+Please refer to the summary of singals and variables for further explanation of each feature variable
+
+
+
+
+
 9	timeBodyAccelerator-mad()-X
 10	timeBodyAccelerator-mad()-Y
 11	timeBodyAccelerator-mad()-Z
