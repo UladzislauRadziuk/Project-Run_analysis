@@ -129,16 +129,16 @@ Column|Variable names|Definition
 1|participants|Participants and associated number (1-30)
 2|activities|1 WALKING
  |          |2 WALKING_UPSTAIRS
-             3 WALKING_DOWNSTAIRS
-             4 SITTING
-             5 STANDING
-             6 LAYING
-3|	timeBodyAccelerator-mean()-X|	        me      an of the body acceleration on the x-axis
-4|	timeBodyAccelerator-mean()-Y|	        mean of the body acceleration on the y-axis
-5|	timeBodyAccelerator-mean()-Z|	        mean of the body acceleration on the z-axis
-6|	timeBodyAccelerator-std()-X |            ...
-7|	timeBodyAccelerator-std()-Y |            ..
-8|	timeBodyAccelerator-std()-Z |           .
+ |      |3 WALKING_DOWNSTAIRS
+ |      |4 SITTING
+ |      |5 STANDING
+ |      |6 LAYING
+ 3|	timeBodyAccelerator-mean()-X|mean of the body acceleration on the x-axis
+4|	timeBodyAccelerator-mean()-Y|mean of the body acceleration on the y-axis
+5|	timeBodyAccelerator-mean()-Z|mean of the body acceleration on the z-axis
+6|	timeBodyAccelerator-std()-X|...
+7|	timeBodyAccelerator-std()-Y|..
+8|	timeBodyAccelerator-std()-Z|.
 9	timeBodyAccelerator-mad()-X
 10	timeBodyAccelerator-mad()-Y
 11	timeBodyAccelerator-mad()-Z
