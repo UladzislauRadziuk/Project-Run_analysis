@@ -122,7 +122,7 @@ kurtosis(): kurtosis of the frequency domain signal
 bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.  
 angle(): Angle between to vectors.  
 
-|--**Varibles of the tidy_data_set.txt**---------------------------------------
+|--**Varibles of the tidy_data_set.txt**-----------------------------------------------------------
 
 Column|Variable names|Definition
 ------|--------------|-----------
@@ -130,17 +130,15 @@ Column|Variable names|Definition
 2|activities|1 WALKING
  |          |2 WALKING_UPSTAIRS
              3 WALKING_DOWNSTAIRS
-                                                4 SITTING
-                                                5 STANDING
-                                                6 LAYING
-                                                
-                                                
-3	timeBodyAccelerator-mean()-X	        me      an of the body acceleration on the x-axis
-4	timeBodyAccelerator-mean()-Y	        mean of the body acceleration on the y-axis
-5	timeBodyAccelerator-mean()-Z	        mean of the body acceleration on the z-axis
-6	timeBodyAccelerator-std()-X             ...
-7	timeBodyAccelerator-std()-Y             ..
-8	timeBodyAccelerator-std()-Z             .
+             4 SITTING
+             5 STANDING
+             6 LAYING
+3|	timeBodyAccelerator-mean()-X|	        me      an of the body acceleration on the x-axis
+4|	timeBodyAccelerator-mean()-Y|	        mean of the body acceleration on the y-axis
+5|	timeBodyAccelerator-mean()-Z|	        mean of the body acceleration on the z-axis
+6|	timeBodyAccelerator-std()-X |            ...
+7|	timeBodyAccelerator-std()-Y |            ..
+8|	timeBodyAccelerator-std()-Z |           .
 9	timeBodyAccelerator-mad()-X
 10	timeBodyAccelerator-mad()-Y
 11	timeBodyAccelerator-mad()-Z
