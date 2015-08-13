@@ -1,13 +1,13 @@
-#--**run_analysis CodeBook Version 1.0**
+**run_analysis CodeBook Version 1.0**
 
-##--**Summary** --------------------------------------------------------------------------------------------------
+|-**Summary** --------------------------------------------------------------------------------------------------
 
 run_analysis describes the transformation of the data (UCI HAR Dataset) using the run analysis.R function into a tidy_data_set. 
 
 Raw data is from: 
 UCI HAR Dataset, Human Activity Recognition Using Smartphones Dataset, Owner: Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto. Smartlab - Non Linear Complex Systems Laboratory DITEN - Universit‡ degli Studi di Genova.Via Opera Pia 11A, I-16145, Genoa, Italy.activityrecognition@smartlab.ws, www.smartlab.ws
 
-##--**Data Description** ------------------------------------------------------------------------------------------
+|-**Data Description** ------------------------------------------------------------------------------------------
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
@@ -104,26 +104,26 @@ fBodyGyroJerkMag
 
 Summary of variables estimated with the signals additionally to the 3Dimensions XYZ:
 
-mean(): Mean value
-std(): Standard deviation
-mad(): Median absolute deviation 
-max(): Largest value in array
-min(): Smallest value in array
-sma(): Signal magnitude area
-energy(): Energy measure. Sum of the squares divided by the number of values. 
-iqr(): Interquartile range 
-entropy(): Signal entropy
-arCoeff(): Autorregresion coefficients with Burg order equal to 4
-correlation(): correlation coefficient between two signals
-maxInds(): index of the frequency component with largest magnitude
-meanFreq(): Weighted average of the frequency components to obtain a mean frequency
-skewness(): skewness of the frequency domain signal 
-kurtosis(): kurtosis of the frequency domain signal 
-bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
-angle(): Angle between to vectors.
+mean(): Mean value  
+std(): Standard deviation  
+mad(): Median absolute deviation   
+max(): Largest value in array  
+min(): Smallest value in array  
+sma(): Signal magnitude area  
+energy(): Energy measure. Sum of the squares divided by the number of values.   
+iqr(): Interquartile range   
+entropy(): Signal entropy  
+arCoeff(): Autorregresion coefficients with Burg order equal to 4  
+correlation(): correlation coefficient between two signals  
+maxInds(): index of the frequency component with largest magnitude  
+meanFreq(): Weighted average of the frequency components to obtain a mean frequency  
+skewness(): skewness of the frequency domain signal   
+kurtosis(): kurtosis of the frequency domain signal   
+bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.  
+angle(): Angle between to vectors.  
 
 -------------------------Varibles of the tidy_data_set.txt--------------------------------
-|------------------------------------------------------------------------------------------|
+  ------------------------------------------------------------------------------------------
 Column|Variable names|Definition
 ------|--------------|-----------
 1|participants|Participants and associated number (1-30)
