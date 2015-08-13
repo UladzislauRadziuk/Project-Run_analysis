@@ -126,8 +126,7 @@ angle(): Angle between to vectors.
 |------------------------------------------------------------------------------------------|
 |-Column--------Variable names---------------------------- Definition ----------------------|
 |-1--------------participants -------------------Participants and associated number (1-30)  |
-|-2--------------activities----------------------1 WALKING                                  |
-
+|-2--------------activities                     1 WALKING                                  |
                                                 2 WALKING_UPSTAIRS
                                                 3 WALKING_DOWNSTAIRS
                                                 4 SITTING
