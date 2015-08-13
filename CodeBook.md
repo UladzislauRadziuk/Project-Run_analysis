@@ -1,19 +1,16 @@
-|----------------------
-run_analysis CodeBook.
-Version 1.0
-|----------------------
-moritzvk@web.de
-|------------------------------------------------------------------------------------------------------------
+|--run_analysis CodeBook Version 1.0
+|--Summary --------------------------------------------------------------------------------------------------
 
-run_analysis describes the transformation of the data using the run analysis.R function. 
+run_analysis describes the transformation of the data (UCI HAR Dataset) using the run analysis.R function into a tidy_data_set. 
 
-Raw data is from: UCI HAR Dataset, Human Activity Recognition Using Smartphones Dataset, Owner: Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto. Smartlab - Non Linear Complex Systems Laboratory DITEN - Universit‡ degli Studi di Genova.Via Opera Pia 11A, I-16145, Genoa, Italy.activityrecognition@smartlab.ws, www.smartlab.ws
+Raw data is from: 
+UCI HAR Dataset, Human Activity Recognition Using Smartphones Dataset, Owner: Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto. Smartlab - Non Linear Complex Systems Laboratory DITEN - Universit‡ degli Studi di Genova.Via Opera Pia 11A, I-16145, Genoa, Italy.activityrecognition@smartlab.ws, www.smartlab.ws
 
-|--DATA Description ------------------------------------------------------------------------------------------
+|--Data Description ------------------------------------------------------------------------------------------
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
-|--TRANSFORMATION----------------------------------------------------------------------------------------------
+|--Transformation----------------------------------------------------------------------------------------------
 
 Description of the transformation performed with the data to clean up the data set and create the final tidy_data_set.txt
 
@@ -51,7 +48,7 @@ Description of the transformation performed with the data to clean up the data s
 5.1 Create a new data table "TidyData" with the average of each activity and participant and write it into "tidy_data_set.txt". 
 For further details of the variables please see below. 
 
-|--VARIABLES--------------------------------------------------------------------------------------------------
+|--Variables--------------------------------------------------------------------------------------------------
 
 Summary of variables derived from signals: 
 
@@ -124,12 +121,10 @@ kurtosis(): kurtosis of the frequency domain signal
 bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
 angle(): Angle between to vectors.
 
---------------------------------------------------------------------------------------------------|
-                                Varibles of the tidy_data_set.txt
---------------------------------------------------------------------------------------------------|
-
-Column | Variable Name                     | Definition
--------|-----------------------------------|------------------------------------------------------|
+|--Varibles of the tidy_data_set.txt
+|------------------------------------------------------------------------------------------|
+|Column | Variable Name                     | Definition                                   |
+|-------|-----------------------------------|----------------------------------------------|
 
 1	participants                    	Participants and associated number (1-30)
 2	activities                      	1 WALKING
