@@ -17,7 +17,7 @@ Description of the transformation performed with the data to clean up the data s
 
 1. Merges the training and test sets to create one data set:
 
-+ For the set up of the Master data set the following data was extracted out of the UCI HAR Dataset:
+1.1. For the set up of the Master data set the following data was extracted out of the UCI HAR Dataset:
 
 -YTest          (Test set, activity levels e.g. 1 Walking, 2 Walking_Upstairs) 
 -XTest          (Test labels)
@@ -28,13 +28,13 @@ Description of the transformation performed with the data to clean up the data s
 -Features       (feature(e.g. tBodyAcc-XYZ...) list of variables (like "mean value" or "standard deviation" etc.) 
                 that where applied on a set of filtered acceleration and gyroscope 3D signals, from 3D raw data signal database)
 
-+: the feature list was added as variables to the XTrain and XTest set.
-+: the identifier of the participants and activities was added to the XTrain and XTest sets.
-+: the XTrain and XTest set were combined into a Master set to create one data set.
+1.2.: the feature list was added as variables to the XTrain and XTest set.
+1.3.: the identifier of the participants and activities was added to the XTrain and XTest sets.
+1.4.: the XTrain and XTest set were combined into a Master set to create one data set.
 
 2. Extracts only the measurements on the mean and standard deviation for each measurement:
 
-+ Two feature data.frames were created from the Master set one with all STD featuers and one with all Mean features
+2.1. Two feature data.frames were created from the Master set one with all STD featuers and one with all Mean features
 
 3 Uses descriptive activity names to name the activities in the data set:
 
