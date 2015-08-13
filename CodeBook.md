@@ -124,7 +124,7 @@ angle(): Angle between to vectors.
 
 |-------------------------Varibles of the tidy_data_set.txt--------------------------------|
 |------------------------------------------------------------------------------------------|
-|Column | Variable Name                     | Definition                                   |
+|Column   Variable Name                       Definition                                   |
 |-------|-----------------------------------|----------------------------------------------|
 
 1	participants                    	Participants and associated number (1-30)
