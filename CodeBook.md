@@ -1,4 +1,4 @@
-**run_analysis CodeBook Version 1.0**
+|-**run_analysis CodeBook Version 1.0**
 
 |-**Summary** --------------------------------------------------------------------------------------------------
 
@@ -11,7 +11,7 @@ UCI HAR Dataset, Human Activity Recognition Using Smartphones Dataset, Owner: Jo
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
-|--Transformation----------------------------------------------------------------------------------------------
+|--**Transformation**----------------------------------------------------------------------------------------------
 
 Description of the transformation performed with the data to clean up the data set and create the final tidy_data_set.txt
 
@@ -49,58 +49,58 @@ Description of the transformation performed with the data to clean up the data s
 5.1 Create a new data table "TidyData" with the average of each activity and participant and write it into "tidy_data_set.txt". 
 For further details of the variables please see below. 
 
-|--Variables--------------------------------------------------------------------------------------------------
+|--**Variables**--------------------------------------------------------------------------------------------------
 
 Summary of variables derived from signals: 
 
 Each of the 479 variables in the tidy_data_set is in one column and numbered accordingly (column 1:479). The variable names are defined according to the body movement of the participants and are measuered with two sensors a accelerometer and a gyroscope. The data was recorded as a raw 3D signal (tAcc-XYZ and tGyro-XYZ) where t = time, Acc = Acceleration, XYZ = 3 Dimensions and Gyro = gyroscope. Out of this raw data the acceleration data was further splitted into a body- and a gravity acceleration signal-features:
 
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyGyro-XYZ
+tBodyAcc-XYZ  
+tGravityAcc-XYZ  
+tBodyGyro-XYZ  
 
 The acceleration singal was further processed to obtain Jerk signals-features:
 
-tBodyAccJerk-XYZ
-tBodyGyroJerk-XYZ
+tBodyAccJerk-XYZ  
+tBodyGyroJerk-XYZ  
 
 Using the four feature signals above the magnitude was also calculated and derived into these new features:
 
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
+tBodyAccMag  
+tGravityAccMag  
+tBodyAccJerkMag  
+tBodyGyroMag  
+tBodyGyroJerkMag  
 
 Also the Fast Fourier Transform (FFT) was applied on these features, producing the following featueres indicated with a "f":
 
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+fBodyAcc-XYZ  
+fBodyAccJerk-XYZ  
+fBodyGyro-XYZ  
+fBodyAccMag  
+fBodyAccJerkMag  
+fBodyGyroMag  
+fBodyGyroJerkMag  
 
 Summery of signals: 
 
-tBodyAcc-XYZ            
-tGravityAcc-XYZ         
-tBodyAccJerk-XYZ        
-tBodyGyro-XYZ           
-tBodyGyroJerk-XYZ       
-tBodyAccMag             
-tGravityAccMag          
-tBodyAccJerkMag         
-tBodyGyroMag            
-tBodyGyroJerkMag        
-fBodyAcc-XYZ            
-fBodyAccJerk-XYZ        
-fBodyGyro-XYZ           
-fBodyAccMag             
-fBodyAccJerkMag         
-fBodyGyroMag            
-fBodyGyroJerkMag        
+tBodyAcc-XYZ              
+tGravityAcc-XYZ           
+tBodyAccJerk-XYZ          
+tBodyGyro-XYZ             
+tBodyGyroJerk-XYZ         
+tBodyAccMag               
+tGravityAccMag            
+tBodyAccJerkMag           
+tBodyGyroMag              
+tBodyGyroJerkMag          
+fBodyAcc-XYZ              
+fBodyAccJerk-XYZ          
+fBodyGyro-XYZ             
+fBodyAccMag               
+fBodyAccJerkMag           
+fBodyGyroMag              
+fBodyGyroJerkMag          
 
 Summary of variables estimated with the signals additionally to the 3Dimensions XYZ:
 
@@ -122,14 +122,14 @@ kurtosis(): kurtosis of the frequency domain signal
 bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.  
 angle(): Angle between to vectors.  
 
--------------------------Varibles of the tidy_data_set.txt--------------------------------
-  ------------------------------------------------------------------------------------------
+|--**Varibles of the tidy_data_set.txt**---------------------------------------
+
 Column|Variable names|Definition
 ------|--------------|-----------
 1|participants|Participants and associated number (1-30)
 2|activities|1 WALKING
  |          |2 WALKING_UPSTAIRS
-                                                3 WALKING_DOWNSTAIRS
+             3 WALKING_DOWNSTAIRS
                                                 4 SITTING
                                                 5 STANDING
                                                 6 LAYING
