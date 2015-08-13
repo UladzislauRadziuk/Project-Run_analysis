@@ -104,8 +104,8 @@ fBodyGyroJerkMag
 
 Summary of variables estimated with the signals additionally to the 3Dimensions XYZ:
 
-mean(): Mean value,
-std(): Standard deviation,
+mean(): Mean value
+std(): Standard deviation
 mad(): Median absolute deviation 
 max(): Largest value in array
 min(): Smallest value in array
