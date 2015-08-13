@@ -1,4 +1,5 @@
 |--run_analysis CodeBook Version 1.0
+
 |--Summary --------------------------------------------------------------------------------------------------
 
 run_analysis describes the transformation of the data (UCI HAR Dataset) using the run analysis.R function into a tidy_data_set. 
@@ -121,7 +122,7 @@ kurtosis(): kurtosis of the frequency domain signal
 bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
 angle(): Angle between to vectors.
 
-|--Varibles of the tidy_data_set.txt
+|-------------------------Varibles of the tidy_data_set.txt--------------------------------|
 |------------------------------------------------------------------------------------------|
 |Column | Variable Name                     | Definition                                   |
 |-------|-----------------------------------|----------------------------------------------|
