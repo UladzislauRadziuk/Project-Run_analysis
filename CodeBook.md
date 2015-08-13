@@ -124,9 +124,9 @@ angle(): Angle between to vectors.
 
 |-------------------------Varibles of the tidy_data_set.txt--------------------------------|
 |------------------------------------------------------------------------------------------|
-|Column ------- Variable Name ---------------             Definition ----------------------|
+|Column ------- Variable Name --------------------------- Definition ----------------------|
 |-------|-----------------------------------|----------------------------------------------|
-
+|   1   | participants                      |   Participants and associated number (1-30)  |
 1	participants                    	Participants and associated number (1-30)
 2	activities                      	1 WALKING
                                                 2 WALKING_UPSTAIRS
@@ -134,7 +134,7 @@ angle(): Angle between to vectors.
                                                 4 SITTING
                                                 5 STANDING
                                                 6 LAYING"
-3	timeBodyAccelerator-mean()-X	        mean of the body acceleration on the x-axis
+3	timeBodyAccelerator-mean()-X	        me      an of the body acceleration on the x-axis
 4	timeBodyAccelerator-mean()-Y	        mean of the body acceleration on the y-axis
 5	timeBodyAccelerator-mean()-Z	        mean of the body acceleration on the z-axis
 6	timeBodyAccelerator-std()-X             ...
