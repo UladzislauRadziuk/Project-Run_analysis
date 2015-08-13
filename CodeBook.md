@@ -15,22 +15,22 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 
 Description of the transformation performed with the data to clean up the data set and create the final tidy_data_set.txt
 
-1. Merges the training and test sets to create one data set:
+1. Merges the training and test sets to create one data set:   
+   
+1.1. For the set up of the Master data set the following data was extracted out of the UCI HAR Dataset:   
 
-1.1. For the set up of the Master data set the following data was extracted out of the UCI HAR Dataset:
+-YTest          (Test set, activity levels e.g. 1 Walking, 2 Walking_Upstairs)   
+-XTest          (Test labels)   
+-SubjectTest    (Identifier for participants performing the test-activity)   
+-YTrain         (Training set, activity levels e.g. 1 Walking, 2 Walking_Upstairs)   
+-XTrain         (Training labels)   
+-SubjectTrain   (Identifier for the participants performing the training-activity)   
+-Features       (feature(e.g. tBodyAcc-XYZ...) list of variables (like "mean value" or "standard deviation" etc.)    
+                that where applied on a set of filtered acceleration and gyroscope 3D signals, from 3D raw data                      signal database)   
 
--YTest          (Test set, activity levels e.g. 1 Walking, 2 Walking_Upstairs) 
--XTest          (Test labels)
--SubjectTest    (Identifier for participants performing the test-activity)
--YTrain         (Training set, activity levels e.g. 1 Walking, 2 Walking_Upstairs)
--XTrain         (Training labels)
--SubjectTrain   (Identifier for the participants performing the training-activity)
--Features       (feature(e.g. tBodyAcc-XYZ...) list of variables (like "mean value" or "standard deviation" etc.) 
-                that where applied on a set of filtered acceleration and gyroscope 3D signals, from 3D raw data signal database)
-
-1.2.: the feature list was added as variables to the XTrain and XTest set.
-1.3.: the identifier of the participants and activities was added to the XTrain and XTest sets.
-1.4.: the XTrain and XTest set were combined into a Master set to create one data set.
+1.2: the feature list was added as variables to the XTrain and XTest set.  
+1.3: the identifier of the participants and activities was added to the XTrain and XTest sets.   
+1.4: the XTrain and XTest set were combined into a Master set to create one data set.   
 
 2. Extracts only the measurements on the mean and standard deviation for each measurement:
 
