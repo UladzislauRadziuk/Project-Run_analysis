@@ -11,7 +11,7 @@ URL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR
 Set up the sample data file, the working directory, load the libraries and clean the global environement.
 ```{r}
 run_analysis <- function(URL)
-         if (!getwd() == "./sample_data") {
+         if (!getwd() == "./sample_data") {     # Look for working directory and check if file "sample data" exists otherwise create it
                 dir.create("./sample_data")}
 setwd("./sample_data") # Set working directory
 rm(list = ls(all = TRUE)) # Clear the global environement within working directory
