@@ -132,7 +132,7 @@ angle(): Angle between to vectors.
                                                 3 WALKING_DOWNSTAIRS
                                                 4 SITTING
                                                 5 STANDING
-                                                6 LAYING"
+                                                6 LAYING
 3	timeBodyAccelerator-mean()-X	        me      an of the body acceleration on the x-axis
 4	timeBodyAccelerator-mean()-Y	        mean of the body acceleration on the y-axis
 5	timeBodyAccelerator-mean()-Z	        mean of the body acceleration on the z-axis
